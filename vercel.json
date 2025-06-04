@@ -1,0 +1,11 @@
+{
+  "routes": [
+    {
+      "handle": "filesystem" // Serve static assets first
+    },
+    {
+      "src": "/.*", // Catch-all for client-side routes
+      "dest": "/index.html" 
+    }
+  ]
+}
